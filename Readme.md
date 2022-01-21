@@ -30,4 +30,99 @@ Install java on production servers (Hint use Ansible)
 Also, install apache on a production server ( It may be required in the future when this project is enhanced)
 Start apache service.
 Run docker container in the production
-Repeat Docker requirement step again for production machine
+Repeat Docker requirement step again for production machine.
+
+
+Commands
+********
+ mvn -version
+ 1325  mvn archetype:generate
+ 1326  ls
+ 1327  cd capstone
+ 1328  ls
+ 1329  cd src
+ 1330  ls
+ 1331  cd test
+ 1332  ls
+ 1333  apt-get  update
+ 1334  java -version
+ 1335  wget -qO - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add -
+ 1336  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+ 1337  sudo apt-get update
+ 1338  sudo apt-get install jenkins
+ 1339  systemctl status jenkins
+ 1340  sudo ufw allow 8080
+ 1341  vi /etc/sudoers
+ 1342  git remote add origin git@github.com:re1vz01/BankingMicroservice.git
+ 1343  git init
+ 1344  cd ..
+ 1345  git init
+ 1346  git remote add origin git@github.com:re1vz01/BankingMicroservice.git
+ 1347  touch 1.java
+ 1348  git add .
+ 1349  git commit -m "1.java is added"
+ 1350  gitconfig --global user.name Reivin
+ 1351  git config --global user.name Reivin
+ 1352  git config --global user.email reivin@gmail.com
+ 1353  git commit -m "1.java is added"
+ 1354  ls
+ 1355  git push origin master
+ 1356  ssh-keygen
+ 1357  vi /root/.ssh/id_rsa.pub
+ 1358  git push origin master
+ 1359  vi .git/config
+ 1360  ls
+ 1361  cat /root.ssh/id_rsa.pub
+ 1362  cat /root/.ssh/id_rsa.pub
+ 1363  git push origin master
+ 1364  vi .git/config
+ 1365  git branch -m Main
+ 1366  git push origin master
+ 1367  git remote add origin git@github.com:re1vz01/BankingMicroservice.git
+ 1368  vi /root/.ssh/id_rsa.pub
+ 1369  git push origin master
+ 1370  ls
+ 1371  rm 1.java
+ 1372  ls
+ 1373  git add .
+ 1374  git commit -m "Initial commit"
+ 1375  git push origin master
+ 1376  git show-ref
+ 1377  git push -u origin main
+ 1378  git status
+ 1379  git add .
+ 1380  git commit -m "Initial commit"
+ 1381  git push origin master
+ 1382  git push -u origin main
+ 1383  git push origin Main
+ 1384  git branch dev1
+ 1385  git branch dev2
+ 1386  git checkout dev1
+ 1387  git push origin dev1
+ 1388  git push origin dev2
+ 1389  git branch
+ 1390  ls
+ 1391  cd /src/test
+ 1392  ls /src
+ 1393  ls src/
+ 1394  ls /src/main
+ 1395  ls src/main
+ 1396  vi src/main/java
+ 1397  cd src/main
+ 1398  ls
+ 1399  cat java
+ 1400  cd java
+ 1401  ls
+ 1402  ls capstone/
+ 1403  cd capstone
+ 1404  vi App.java
+ 1405  git checkout dev2
+ 1406  vi App.java
+ 1407  git checkout master
+ 1408  git branch
+ 1409  git checkout Main
+ 1410  git merge dev1
+ 1411  git merge dev2
+ 1412  git merge dev1 dev2
+ 1413  git log --oneline
+
